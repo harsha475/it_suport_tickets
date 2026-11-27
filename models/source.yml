@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: tickets_source
+    database: it_support_tickets
+    schema: silver
+
+    tables:
+      - name: silver_table
